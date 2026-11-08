@@ -271,24 +271,47 @@ em, i { font-weight: 400; }
   body { font-size: 14px; }
   .section-meta { gap: 10px; padding-bottom: 12px; }
   .section-number, .meta-label { font-size: 9px; }
-  .hero { min-height: max(100%, 100svh); padding-bottom: 25px; }
+  .hero {
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100svh;
+    min-height: 100dvh;
+    padding-bottom: max(25px, env(safe-area-inset-bottom));
+  }
   .hero-image { object-position: 77% center; }
   .hero-shade { background: linear-gradient(0deg, rgb(0 0 0) 0%, rgba(16, 16, 16, .17) 65%, rgba(16, 16, 16, .35) 100%), linear-gradient(90deg, rgba(16, 16, 16, .32), transparent 90%); }
-  .hero-header { display: flex; min-height: 66px; justify-content: space-between; gap: 16px; }
+  .hero-header {
+    display: grid;
+    width: 100%;
+    min-width: 0;
+    min-height: 66px;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+  }
   .wordmark { font-size: 20px; }
-  .hero-nav { flex: 1; justify-content: flex-end; flex-wrap: wrap; gap: 8px 14px; max-width: 260px; }
+  .hero-nav {
+    min-width: 0;
+    width: 100%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    max-width: none;
+  }
   .hero-nav a { font-size: 9px; }
   .hero-main {
+    width: 100%;
+    min-width: 0;
     align-items: center;
     justify-content: flex-end;
     padding: 0 0 clamp(24px, 5vh, 42px);
     text-align: center;
   }
   .hero-kicker { margin: 0 0 12px; font-size: 12px; letter-spacing: 0.8px; }
-  .hero h1 { align-items: center; gap: 10px; font-size: clamp(60px, 14vw, 91px); line-height: .87; text-align: center; }
+  .hero h1 { width: 100%; max-width: 100%; min-width: 0; align-items: center; gap: 10px; font-size: clamp(60px, 14vw, 91px); line-height: .87; text-align: center; }
   .hero h1 span { white-space: normal; }
   .hero h1 i { margin-left: 0; font-size: 0.92em; }
-  .hero-note { margin: 14px 0 0; font-size: 11px; text-align: center; }
+  .hero-note { max-width: 100%; margin: 14px 0 0; font-size: 11px; text-align: center; }
   .hero-bottom { grid-template-columns: 1fr 1fr; gap: 14px; }
   .hero-date strong { font-size: 39px; }
   .hero-place { justify-self: end; font-size: 8px; text-align: right; }
@@ -322,7 +345,8 @@ em, i { font-weight: 400; }
   .place-description { margin-top: 23px; font-size: 13px; }
   .place-address { margin-top: 30px; }
   .place-photo { height: 430px; }
-  .route-heading { align-items: flex-start; }
+  .route-heading { align-items: flex-start; flex-wrap: wrap; }
+  .route-heading > p { max-width: 100%; text-align: left; }
   .route-heading h3 { font-size: 30px; }
   .route-heading > p { max-width: 125px; font-size: 9px; }
   .route-legend { display: grid; gap: 9px; }
