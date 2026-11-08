@@ -279,12 +279,17 @@ em, i { font-weight: 400; }
   .wordmark { font-size: 20px; }
   .hero-nav { flex: 1; justify-content: flex-end; flex-wrap: wrap; gap: 8px 14px; max-width: 260px; }
   .hero-nav a { font-size: 9px; }
-  .hero-main { justify-content: center; padding: 82px 0 64px; }
-  .hero-kicker { margin: 0 0 20px 3px; font-size: 8px; }
-  .hero h1 { font-size: clamp(60px, 14vw, 91px); line-height: .87; }
+  .hero-main {
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 0 clamp(24px, 5vh, 42px);
+    text-align: center;
+  }
+  .hero-kicker { margin: 0 0 12px; font-size: 8px; }
+  .hero h1 { align-items: center; gap: 10px; font-size: clamp(60px, 14vw, 91px); line-height: .87; text-align: center; }
   .hero h1 span { white-space: normal; }
-  .hero h1 i { margin-left: 19%; font-size: 0.92em }
-  .hero-note { margin: 25px 0 0 4px; font-size: 11px; }
+  .hero h1 i { margin-left: 0; font-size: 0.92em; }
+  .hero-note { margin: 14px 0 0; font-size: 11px; text-align: center; }
   .hero-bottom { grid-template-columns: 1fr 1fr; gap: 14px; }
   .hero-date strong { font-size: 39px; }
   .hero-place { justify-self: end; font-size: 8px; text-align: right; }
