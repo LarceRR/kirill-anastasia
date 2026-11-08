@@ -274,7 +274,7 @@ em, i { font-weight: 400; }
   .section-number, .meta-label { font-size: 9px; }
   .hero { min-height: max(100%, 100svh); padding-bottom: 25px; }
   .hero-image { object-position: 77% center; }
-  .hero-shade { background: linear-gradient(0deg, rgba(16,16,16,.88) 0%, rgba(16,16,16,.17) 65%, rgba(16,16,16,.35) 100%), linear-gradient(90deg, rgba(16,16,16,.32), transparent 90%); }
+  .hero-shade { background: linear-gradient(0deg, rgb(0 0 0) 0%, rgba(16, 16, 16, .17) 65%, rgba(16, 16, 16, .35) 100%), linear-gradient(90deg, rgba(16, 16, 16, .32), transparent 90%); }
   .hero-header { display: flex; min-height: 66px; justify-content: space-between; gap: 16px; }
   .wordmark { font-size: 20px; }
   .hero-nav { flex: 1; justify-content: flex-end; flex-wrap: wrap; gap: 8px 14px; max-width: 260px; }
