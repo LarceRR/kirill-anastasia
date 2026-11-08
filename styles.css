@@ -137,7 +137,6 @@ em, i { font-weight: 400; }
 .route-map {
   margin: 0;
   overflow: hidden;
-  border: 1px solid rgba(240,237,231,.38);
   background: #311f25;
 }
 .route-map img {
@@ -285,7 +284,7 @@ em, i { font-weight: 400; }
     padding: 0 0 clamp(24px, 5vh, 42px);
     text-align: center;
   }
-  .hero-kicker { margin: 0 0 12px; font-size: 8px; }
+  .hero-kicker { margin: 0 0 12px; font-size: 12px; letter-spacing: 0.8px; }
   .hero h1 { align-items: center; gap: 10px; font-size: clamp(60px, 14vw, 91px); line-height: .87; text-align: center; }
   .hero h1 span { white-space: normal; }
   .hero h1 i { margin-left: 0; font-size: 0.92em; }
