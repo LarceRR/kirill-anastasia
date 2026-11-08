@@ -90,8 +90,9 @@ em, i { font-weight: 400; }
 
 /* Переходная строка */
 .marquee { overflow: hidden; padding: 17px 0 19px; border-top: 1px solid rgba(141,23,43,.42); border-bottom: 1px solid rgba(141,23,43,.42); background: var(--champagne); color: var(--wine); }
-.marquee-track { display: flex; width: max-content; animation: marquee 36s linear infinite; }
-.marquee-track span { padding-right: 2px; font: 400 clamp(17px, 2vw, 24px)/1.2 var(--serif); letter-spacing: .045em; white-space: nowrap; }
+.marquee-track { display: flex; width: max-content; animation: marquee 36s linear infinite; will-change: transform; }
+.marquee-group { display: flex; flex: 0 0 auto; min-width: 100vw; justify-content: space-around; }
+.marquee-track span { flex: 0 0 auto; padding-right: 2px; font: 400 clamp(17px, 2vw, 24px)/1.2 var(--serif); letter-spacing: .045em; white-space: nowrap; }
 .marquee-track i { padding: 0 24px; color: var(--ink); font: 400 12px var(--sans); }
 
 /* 03 — расписание как крупная типографическая сетка */
