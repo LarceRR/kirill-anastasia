@@ -4,304 +4,353 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#101010">
-    <meta name="description" content="Анастасия и Кирилл приглашают вас на AFTER THE VOWS — 12 июня 2027 года.">
-    <title>AFTER THE VOWS — Анастасия &amp; Кирилл</title>
+    <meta name="description" content="Ева и Александр приглашают вас на свадьбу 12 июня 2027 года.">
+    <title>Ева и Александр — 12 июня 2027 года</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="app.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Перейти к содержанию</a>
 
-    <div class="opening" id="opening" aria-label="AFTER THE VOWS">
-      <p class="eyebrow">PRIVATE EVENT / 001</p>
-      <p class="opening-date">12 JUNE 2027</p>
-      <button class="opening-enter" id="opening-enter" type="button">Открыть приглашение <span aria-hidden="true">↗</span></button>
-    </div>
-
     <main id="main">
       <section class="hero" id="top" aria-labelledby="hero-title">
-        <img class="hero-image" src="assets/hero-couple.webp" width="2400" height="1350" alt="Временная заглушка главного fashion-кадра пары Анастасии и Кирилла">
-        <div class="hero-shade"></div>
+        <img class="hero-image" src="assets/hero-couple.png" width="2400" height="1350" fetchpriority="high" alt="Ева и Александр на вечерней свадебной съёмке">
+        <div class="hero-shade" aria-hidden="true"></div>
+
         <header class="hero-header">
-          <a class="wordmark" href="#top" aria-label="AFTER THE VOWS — наверх">A<span> / </span>V</a>
-          <span class="eyebrow header-index">PRIVATE EVENT <span>/</span> 001</span>
-          <a class="header-rsvp" href="#rsvp">RSVP <span aria-hidden="true">↗</span></a>
+          <a class="wordmark" href="#top" aria-label="Ева и Александр — в начало">Е <span>/</span> А</a>
+          <nav class="hero-nav" aria-label="Навигация по приглашению">
+            <a href="#story">История</a>
+            <a href="#program">Программа</a>
+            <a href="#place">Место</a>
+            <a href="#reply">Ответить</a>
+          </nav>
+          <a class="header-date" href="#reply">12.06.2027 <span aria-hidden="true">↗</span></a>
         </header>
 
-        <div class="hero-copy">
-          <p class="eyebrow hero-kicker">ONE NIGHT. ONE STORY.</p>
-          <h1 id="hero-title"><span>Анастасия</span><i>&amp;</i><span>Кирилл</span></h1>
-          <p class="hero-note">Один вечер. Одна история.<br>И люди, с которыми мы хотим её разделить.</p>
+        <div class="hero-main">
+          <p class="hero-kicker">ПРИГЛАШЕНИЕ НА СВАДЬБУ</p>
+          <h1 id="hero-title"><span>Ева</span><i>и</i><span>Александр</span></h1>
+          <p class="hero-note">Один вечер, который мы хотим разделить<br>с самыми близкими людьми.</p>
         </div>
+
         <div class="hero-bottom">
-          <p class="hero-date">12 <span>JUNE</span> 2027</p>
-          <nav class="chapter-nav" aria-label="Навигация по приглашению">
-            <a href="#story">STORY</a>
-            <a href="#night">THE NIGHT</a>
-            <a href="#location">LOCATION</a>
-            <a href="#rsvp">RSVP</a>
-          </nav>
-          <a class="scroll-cue" href="#story">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a>
+          <p class="hero-date"><strong>12</strong><span>ИЮНЯ<br>2027</span></p>
+          <p class="hero-place">МОСКОВСКАЯ ОБЛАСТЬ<br>НАЧАЛО В 17:00</p>
+          <a class="scroll-link" href="#story">ЛИСТАЙТЕ ВНИЗ <span aria-hidden="true">↓</span></a>
         </div>
-        <span class="hero-frame">MOSCOW REGION · 55°45' N</span>
+        <span class="hero-side-note" aria-hidden="true">ДЕНЬ, КОТОРЫЙ МЫ ВЫБРАЛИ ДРУГ ДЛЯ ДРУГА</span>
       </section>
 
-      <section class="story section-light" id="story" aria-labelledby="story-title">
-        <div class="section-shell story-grid">
+      <section class="story section-ivory" id="story" aria-labelledby="story-title">
+        <div class="section-shell">
           <div class="section-meta reveal">
             <span class="section-number">02 / 08</span>
-            <span class="eyebrow">THE INVITATION</span>
+            <span class="meta-line"></span>
+            <span class="meta-label">НАША ИСТОРИЯ</span>
           </div>
-          <div class="story-heading reveal">
-            <p class="eyebrow">A NOTE FROM US</p>
-            <h2 id="story-title">История<br><em>продолжается.</em></h2>
+          <div class="story-layout">
+            <p class="story-index reveal" aria-hidden="true">02</p>
+            <div class="story-copy reveal">
+              <p class="eyebrow">БЛИЗКИЕ ЛЮДИ. ВАЖНЫЙ ДЕНЬ.</p>
+              <h2 id="story-title">Некоторые вечера становятся <em>воспоминаниями</em> ещё до того, как начались.</h2>
+              <p class="story-body">Мы хотим провести этот день не по сценарию, а по-настоящему: рядом с теми, с кем легко смеяться, долго разговаривать и молчать без неловкости. Будем счастливы, если вы станете частью этой истории.</p>
+              <p class="story-signature">Ева <span>и</span> Александр</p>
+            </div>
+            <div class="story-aside reveal">
+              <span class="story-aside-mark" aria-hidden="true">✳</span>
+              <p>Не нужно готовить особенные слова. Просто приезжайте и будьте рядом.</p>
+            </div>
           </div>
-          <figure class="story-image image-frame reveal">
-            <img src="assets/editorial-details.webp" width="1600" height="2000" loading="lazy" alt="Временная заглушка редакционного натюрморта с приглашением">
-            <figcaption class="image-caption"><span>STUDY 01</span><span>THE BEGINNING</span></figcaption>
-          </figure>
-          <div class="story-text reveal">
-            <span class="red-rule"></span>
-            <p>Мы решили собрать в одном месте тех, кто делает нашу историю особенной.</p>
-            <p>Будем рады провести этот вечер вместе — без спешки, с хорошей музыкой, красивыми разговорами и воспоминаниями, к которым захочется возвращаться.</p>
-            <p class="signature">Анастасия <i>&amp;</i> Кирилл</p>
-          </div>
-          <p class="story-side-note eyebrow">CHAPTER 02<br>THE STORY CONTINUES</p>
         </div>
       </section>
 
-      <div class="marquee" aria-label="A night to remember">
-        <div class="marquee-track"><span>A NIGHT TO REMEMBER <i>✳</i> FOREVER STARTS TONIGHT <i>✳</i>&nbsp;</span><span aria-hidden="true">A NIGHT TO REMEMBER <i>✳</i> FOREVER STARTS TONIGHT <i>✳</i>&nbsp;</span></div>
+      <div class="marquee" aria-label="Этот вечер мы хотим разделить с вами">
+        <div class="marquee-track">
+          <span>ЭТОТ ВЕЧЕР МЫ ХОТИМ РАЗДЕЛИТЬ С ВАМИ <i>✳</i> САМОЕ ВАЖНОЕ — БЫТЬ РЯДОМ <i>✳</i></span>
+          <span aria-hidden="true">ЭТОТ ВЕЧЕР МЫ ХОТИМ РАЗДЕЛИТЬ С ВАМИ <i>✳</i> САМОЕ ВАЖНОЕ — БЫТЬ РЯДОМ <i>✳</i></span>
+        </div>
       </div>
 
-      <section class="schedule section-dark" id="night" aria-labelledby="night-title">
+      <section class="program section-ink" id="program" aria-labelledby="program-title">
         <div class="section-shell">
           <div class="section-meta reveal">
             <span class="section-number">03 / 08</span>
-            <span class="eyebrow">THE NIGHT · 12 JUN 2027</span>
+            <span class="meta-line"></span>
+            <span class="meta-label">ПЛАН ВЕЧЕРА</span>
           </div>
-          <div class="schedule-intro reveal">
-            <h2 id="night-title">Сценарий<br><em>вечера.</em></h2>
-            <p>Четыре момента.<br>Один незабываемый вечер.</p>
+          <div class="program-heading reveal">
+            <h2 id="program-title">Время<br><em>быть вместе.</em></h2>
+            <p>Четыре момента одного большого дня. Сохраните расписание, чтобы ничего не пропустить.</p>
           </div>
-          <div class="schedule-layout">
-            <ol class="schedule-list">
-              <li class="schedule-item reveal">
-                <time datetime="17:00">17<span>:00</span></time>
-                <div><p class="eyebrow">01 / ARRIVAL</p><h3>Сбор гостей</h3><p>Встречаемся, знакомимся и начинаем вечер с приветственного напитка.</p></div>
-                <span class="schedule-mark">I</span>
-              </li>
-              <li class="schedule-item reveal">
-                <time datetime="17:30">17<span>:30</span></time>
-                <div><p class="eyebrow">02 / THE CEREMONY</p><h3>Церемония</h3><p>Момент, ради которого мы собрались.</p></div>
-                <span class="schedule-mark">II</span>
-              </li>
-              <li class="schedule-item reveal">
-                <time datetime="19:00">19<span>:00</span></time>
-                <div><p class="eyebrow">03 / DINNER</p><h3>Праздничный ужин</h3><p>Тёплые слова, длинные разговоры и праздничный стол.</p></div>
-                <span class="schedule-mark">III</span>
-              </li>
-              <li class="schedule-item reveal">
-                <time datetime="22:00">22<span>:00</span></time>
-                <div><p class="eyebrow">04 / AFTER PARTY</p><h3>Вечеринка</h3><p>Музыка становится громче, а вечер — длиннее.</p></div>
-                <span class="schedule-mark">IV</span>
-              </li>
-            </ol>
-            <figure class="schedule-image image-frame reveal">
-              <img src="assets/venue-interior.webp" width="1600" height="2000" loading="lazy" alt="Временная заглушка вечернего интерьера Maison Noire">
-              <figcaption class="image-caption"><span>ACT II</span><span>AFTER DARK</span></figcaption>
-            </figure>
-          </div>
+          <ol class="program-list">
+            <li class="program-item reveal">
+              <span class="program-number">01</span>
+              <time datetime="17:00">17:00</time>
+              <div class="program-description">
+                <h3>Встреча гостей</h3>
+                <p>Знакомимся, занимаем места и начинаем вечер с приветственного напитка.</p>
+              </div>
+              <span class="program-symbol" aria-hidden="true">↗</span>
+            </li>
+            <li class="program-item reveal">
+              <span class="program-number">02</span>
+              <time datetime="17:30">17:30</time>
+              <div class="program-description">
+                <h3>Церемония</h3>
+                <p>Самые важные слова и обещания, которые мы хотим произнести при вас.</p>
+              </div>
+              <span class="program-symbol" aria-hidden="true">✳</span>
+            </li>
+            <li class="program-item reveal">
+              <span class="program-number">03</span>
+              <time datetime="19:00">19:00</time>
+              <div class="program-description">
+                <h3>Ужин и тосты</h3>
+                <p>Вкусная еда, истории из разных лет и тёплые пожелания.</p>
+              </div>
+              <span class="program-symbol" aria-hidden="true">✦</span>
+            </li>
+            <li class="program-item reveal">
+              <span class="program-number">04</span>
+              <time datetime="22:00">22:00</time>
+              <div class="program-description">
+                <h3>Танцы до позднего вечера</h3>
+                <p>Снимаем строгие пиджаки и остаёмся на музыку, которая объединяет.</p>
+              </div>
+              <span class="program-symbol" aria-hidden="true">↗</span>
+            </li>
+          </ol>
         </div>
       </section>
 
-      <section class="location section-wine" id="location" aria-labelledby="location-title">
+      <section class="place section-wine" id="place" aria-labelledby="place-title">
         <div class="section-shell">
           <div class="section-meta reveal">
             <span class="section-number">04 / 08</span>
-            <span class="eyebrow">THE VENUE</span>
+            <span class="meta-line"></span>
+            <span class="meta-label">МЕСТО ВСТРЕЧИ</span>
           </div>
-          <div class="location-heading reveal">
-            <p class="eyebrow">A PLACE FOR OUR STORY</p>
-            <h2 id="location-title">Место, где<br>начнётся <em>вечер.</em></h2>
-          </div>
-          <figure class="venue-image image-frame reveal">
-            <img src="assets/venue-exterior.webp" width="1800" height="1200" loading="lazy" alt="Временная заглушка архитектурного кадра резиденции Maison Noire">
-            <figcaption class="venue-name">MAISON<br><i>NOIRE</i><span>55°45' N · MOSCOW REGION</span></figcaption>
-            <span class="image-caption"><span>THE SETTING</span><span>EST. 2027</span></span>
-          </figure>
-          <div class="location-info">
-            <div class="location-address reveal">
-              <p class="eyebrow">THE ADDRESS</p>
-              <p>Московская область,<br>загородная резиденция Maison Noire</p>
-              <small>Демонстрационный адрес — уточните детали перед мероприятием.</small>
+          <div class="place-top">
+            <div class="place-copy reveal">
+              <p class="eyebrow">ЗАГОРОДНАЯ РЕЗИДЕНЦИЯ</p>
+              <h2 id="place-title">Особняк<br><em>«Муар».</em></h2>
+              <p class="place-description">Пространство с выразительной архитектурой, мягким вечерним светом и залом, в котором хочется задержаться подольше.</p>
+              <div class="place-address">
+                <span>АДРЕС</span>
+                <p>Московская область,<br>загородная резиденция «Муар»</p>
+                <small>Адрес демонстрационный. Точные координаты будут добавлены организаторами.</small>
+              </div>
             </div>
-            <p class="location-description reveal">Пространство с выразительной архитектурой, камерными залами и садом, который после заката становится частью нашего вечера.</p>
-            <div class="venue-map reveal" role="img" aria-label="Схематичный план площадки: вход, церемония, ужин и вечеринка">
-              <span class="map-label map-title">MAISON NOIRE <small>EVENT GROUNDS · NOT TO SCALE</small></span>
-              <span class="map-road road-one"></span><span class="map-road road-two"></span><span class="map-route"></span>
-              <span class="map-block map-entry">01 <b>ВХОД</b></span>
-              <span class="map-block map-ceremony">02 <b>ЦЕРЕМОНИЯ</b></span>
-              <span class="map-block map-dinner">03 <b>УЖИН</b></span>
-              <span class="map-block map-party">04 <b>ВЕЧЕРИНКА</b></span>
-              <span class="map-north">N <i>↑</i></span>
-              <span class="map-legend eyebrow">01 ARRIVAL&nbsp;&nbsp; / &nbsp;&nbsp;02 CEREMONY&nbsp;&nbsp; / &nbsp;&nbsp;03 DINNER &amp; PARTY</span>
+            <div class="place-photo reveal">
+              <img src="assets/venue-exterior.png" width="1800" height="1200" loading="lazy" alt="Вечерний фасад загородной резиденции «Муар»">
+            </div>
+          </div>
+
+          <div class="route-block reveal">
+            <div class="route-heading">
+              <div>
+                <p class="eyebrow">ОРИЕНТИР НА ТЕРРИТОРИИ</p>
+                <h3>Три точки нашего вечера</h3>
+              </div>
+              <p>Схема условная<br>и нужна для знакомства с площадкой.</p>
+            </div>
+            <div class="route-map" role="img" aria-label="Схема резиденции: вход, церемония и праздничный ужин">
+              <span class="map-building building-main" aria-hidden="true"></span>
+              <span class="map-building building-small" aria-hidden="true"></span>
+              <span class="map-lawn lawn-one" aria-hidden="true"></span>
+              <span class="map-lawn lawn-two" aria-hidden="true"></span>
+              <span class="map-road road-a" aria-hidden="true"></span>
+              <span class="map-road road-b" aria-hidden="true"></span>
+              <span class="map-route-line" aria-hidden="true"></span>
+              <span class="map-point point-one"><b>01</b><span>Вход</span></span>
+              <span class="map-point point-two"><b>02</b><span>Церемония</span></span>
+              <span class="map-point point-three"><b>03</b><span>Ужин</span></span>
+              <span class="map-compass" aria-hidden="true">С<br>↑</span>
+            </div>
+            <div class="route-legend">
+              <span><b>01</b> Встречаем гостей</span>
+              <span><b>02</b> Собираемся на церемонию</span>
+              <span><b>03</b> Переходим к ужину</span>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="dress section-light" id="dress-code" aria-labelledby="dress-title">
+      <section class="dress section-ivory" id="dress" aria-labelledby="dress-title">
         <div class="section-shell">
           <div class="section-meta reveal">
             <span class="section-number">05 / 08</span>
-            <span class="eyebrow">THE LOOK</span>
+            <span class="meta-line"></span>
+            <span class="meta-label">ОБРАЗ ВЕЧЕРА</span>
           </div>
-          <div class="dress-grid">
+          <div class="dress-layout">
             <div class="dress-copy reveal">
-              <p class="eyebrow">DRESS CODE · BLACK TIE OPTIONAL</p>
-              <h2 id="dress-title">DRESS LIKE<br>IT'S THE <em>LAST NIGHT.</em></h2>
-              <p>Будем рады, если вы поддержите настроение вечера в глубоких, благородных оттенках и вечерних силуэтах. Главное — чувствовать себя собой и быть готовыми праздновать.</p>
-              <p class="dress-note">Чёрный галстук — настроение, а не правило.</p>
-            </div>
-            <div class="dress-visual reveal">
-              <figure class="dress-image image-frame">
-                <img src="assets/dress-code-editorial.webp" width="1600" height="2000" loading="lazy" alt="Временная заглушка fashion moodboard с вечерними тканями и аксессуарами">
-                <figcaption class="image-caption"><span>TEXTURE STUDY</span><span>NO. 05</span></figcaption>
-              </figure>
-              <ul class="swatches" aria-label="Цвета настроения вечера">
-                <li><span style="--swatch:#101010"></span><b>BLACK</b></li>
-                <li><span style="--swatch:#8D172B"></span><b>WINE</b></li>
-                <li><span style="--swatch:#E8DCC8"></span><b>CHAMPAGNE</b></li>
-                <li><span style="--swatch:#F0EDE7"></span><b>IVORY</b></li>
-                <li><span style="--swatch:#302027"></span><b>PLUM</b></li>
+              <p class="eyebrow">ОДЕЖДА И НАСТРОЕНИЕ</p>
+              <h2 id="dress-title">Вечерний<br>выход без<br><em>лишних правил.</em></h2>
+              <p class="dress-intro">Нам будет приятно, если вы поддержите настроение вечера — выразительные силуэты, глубокие оттенки и фактуры, которые красиво ловят свет.</p>
+              <ul class="dress-notes">
+                <li><span>01</span><div><b>Тёмная основа</b><p>Чёрный, глубокий винный, тёмный шоколад.</p></div></li>
+                <li><span>02</span><div><b>Мягкий контраст</b><p>Шампань, айвори и спокойные светлые оттенки.</p></div></li>
+                <li><span>03</span><div><b>Свобода движения</b><p>Выбирайте то, в чём удобно провести с нами весь вечер.</p></div></li>
               </ul>
+            </div>
+            <div class="dress-photo reveal">
+              <img src="assets/dress-code-editorial.png" width="1600" height="2000" loading="lazy" alt="Фактуры вечерних тканей в чёрных, винных и оттенках шампань">
+            </div>
+          </div>
+          <div class="dress-palette reveal" aria-label="Цветовая палитра вечера">
+            <span class="palette-label">ОТТЕНКИ ДЛЯ ВДОХНОВЕНИЯ</span>
+            <div class="palette-colors">
+              <span style="--swatch:#101010" aria-label="Чёрный"></span>
+              <span style="--swatch:#8D172B" aria-label="Винный"></span>
+              <span style="--swatch:#302027" aria-label="Тёмная слива"></span>
+              <span style="--swatch:#E8DCC8" aria-label="Шампань"></span>
+              <span style="--swatch:#F0EDE7" aria-label="Айвори"></span>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="gallery section-dark" id="moments" aria-labelledby="gallery-title">
+      <section class="gallery section-ink" id="gallery" aria-labelledby="gallery-title">
         <div class="section-shell">
           <div class="section-meta reveal">
             <span class="section-number">06 / 08</span>
-            <span class="eyebrow">THE MOMENTS</span>
+            <span class="meta-line"></span>
+            <span class="meta-label">ЛИЧНЫЙ АРХИВ</span>
           </div>
           <div class="gallery-heading reveal">
-            <h2 id="gallery-title">Кадры нашей<br><em>истории.</em></h2>
-            <p>FOUR FRAMES<br>ONE STORY</p>
+            <p class="eyebrow">НЕСКОЛЬКО МОМЕНТОВ ДО ГЛАВНОГО ДНЯ</p>
+            <h2 id="gallery-title">То, что хочется<br><em>сохранить.</em></h2>
           </div>
           <div class="gallery-grid">
-            <button class="gallery-frame reveal" type="button" data-gallery="0" aria-label="Открыть кадр 1: портрет пары">
-              <img src="assets/gallery-portrait.webp" width="1200" height="1500" loading="lazy" alt="Временная заглушка портрета Анастасии и Кирилла">
-              <span class="gallery-index">FRAME 01 <i>↗</i></span>
+            <button class="gallery-image" type="button" data-gallery="0" aria-label="Открыть первую фотографию">
+              <img src="assets/gallery-portrait.png" width="1200" height="1500" loading="lazy" alt="Портрет Евы и Александра">
             </button>
-            <button class="gallery-frame reveal" type="button" data-gallery="1" aria-label="Открыть кадр 2: пара в движении">
-              <img src="assets/gallery-motion.webp" width="1200" height="1500" loading="lazy" alt="Временная заглушка пары в движении">
-              <span class="gallery-index">FRAME 02 <i>↗</i></span>
+            <button class="gallery-image" type="button" data-gallery="1" aria-label="Открыть вторую фотографию">
+              <img src="assets/gallery-motion.png" width="1200" height="1500" loading="lazy" alt="Ева и Александр во время прогулки">
             </button>
-            <button class="gallery-frame reveal" type="button" data-gallery="2" aria-label="Открыть кадр 3: детали образа">
-              <img src="assets/gallery-details.webp" width="1200" height="1500" loading="lazy" alt="Временная заглушка деталей свадебного образа">
-              <span class="gallery-index">FRAME 03 <i>↗</i></span>
+            <button class="gallery-image" type="button" data-gallery="2" aria-label="Открыть третью фотографию">
+              <img src="assets/gallery-details.png" width="1200" height="1500" loading="lazy" alt="Крупный план рук и свадебных деталей">
             </button>
-            <button class="gallery-frame reveal" type="button" data-gallery="3" aria-label="Открыть кадр 4: живой момент пары">
-              <img src="assets/gallery-candid.webp" width="1200" height="1500" loading="lazy" alt="Временная заглушка естественного момента Анастасии и Кирилла">
-              <span class="gallery-index">FRAME 04 <i>↗</i></span>
+            <button class="gallery-image" type="button" data-gallery="3" aria-label="Открыть четвёртую фотографию">
+              <img src="assets/gallery-candid.png" width="1200" height="1500" loading="lazy" alt="Ева и Александр смеются вместе">
             </button>
           </div>
+          <p class="gallery-note reveal">Нажмите на фотографию, чтобы рассмотреть её ближе.</p>
         </div>
       </section>
 
-      <div class="marquee marquee-wine" aria-label="Forever starts tonight">
-        <div class="marquee-track"><span>FOREVER STARTS TONIGHT <i>✳</i> SEE YOU AFTER THE VOWS <i>✳</i>&nbsp;</span><span aria-hidden="true">FOREVER STARTS TONIGHT <i>✳</i> SEE YOU AFTER THE VOWS <i>✳</i>&nbsp;</span></div>
-      </div>
-
-      <section class="rsvp section-plum" id="rsvp" aria-labelledby="rsvp-title">
+      <section class="reply section-plum" id="reply" aria-labelledby="reply-title">
         <div class="section-shell">
           <div class="section-meta reveal">
             <span class="section-number">07 / 08</span>
-            <span class="eyebrow">YOUR PASS</span>
+            <span class="meta-line"></span>
+            <span class="meta-label">ВАШ ОТВЕТ</span>
           </div>
-          <div class="rsvp-grid">
-            <div class="rsvp-intro reveal">
-              <p class="eyebrow">KINDLY REPLY BY 25 MAY 2027</p>
-              <h2 id="rsvp-title">Будем рады<br><em>видеть вас.</em></h2>
-              <p>Ваш ответ поможет нам подготовить этот вечер. Подтвердите присутствие до 25 мая 2027 года.</p>
-              <div class="rsvp-date"><span>12</span><span>JUNE<br>2027</span></div>
+          <div class="reply-layout">
+            <div class="reply-intro reveal">
+              <p class="eyebrow">ДО 25 МАЯ 2027 ГОДА</p>
+              <h2 id="reply-title">Будете<br><em>с нами?</em></h2>
+              <p>Расскажите, получится ли провести этот вечер вместе. Нам важно знать об этом заранее.</p>
+              <div class="reply-date"><strong>12</strong><span>ИЮНЯ<br>2027 ГОДА</span></div>
             </div>
-            <div class="rsvp-panel reveal">
-              <form id="rsvp-form">
-                <label class="field">
-                  <span>Имя и фамилия <i>*</i></span>
-                  <input name="name" autocomplete="name" required maxlength="80" placeholder="Как к вам обращаться?">
-                </label>
-                <fieldset class="field attendance-field">
-                  <legend>Ваш ответ <i>*</i></legend>
-                  <label class="radio-option"><input type="radio" name="attendance" value="yes" checked><span>Да, буду</span></label>
-                  <label class="radio-option"><input type="radio" name="attendance" value="no"><span>К сожалению, не смогу</span></label>
+
+            <div class="reply-form-wrap reveal">
+              <form id="reply-form" novalidate>
+                <fieldset class="attendance-choice">
+                  <legend>Сможете прийти?</legend>
+                  <div class="choice-grid">
+                    <label class="choice-card">
+                      <input type="radio" name="attendance" value="yes" required>
+                      <span class="choice-mark">01</span>
+                      <span class="choice-title">Да, буду</span>
+                      <span class="choice-detail">С радостью присоединюсь</span>
+                    </label>
+                    <label class="choice-card">
+                      <input type="radio" name="attendance" value="no" required>
+                      <span class="choice-mark">02</span>
+                      <span class="choice-title">Не получится</span>
+                      <span class="choice-detail">В этот раз не смогу быть рядом</span>
+                    </label>
+                  </div>
                 </fieldset>
-                <label class="field guest-field" id="guest-field">
-                  <span>Количество гостей</span>
-                  <select name="guests" id="guests">
-                    <option value="1">1 гость</option>
-                    <option value="2">2 гостя</option>
-                    <option value="3">3 гостя</option>
-                    <option value="4">4 гостя</option>
-                  </select>
+
+                <label class="reply-field">
+                  <span>Как вас зовут?</span>
+                  <input type="text" name="name" autocomplete="name" maxlength="80" required placeholder="Имя и фамилия">
                 </label>
-                <label class="field">
-                  <span>Комментарий <small>НЕОБЯЗАТЕЛЬНО</small></span>
-                  <textarea name="note" rows="3" maxlength="400" placeholder="Пожелания или важные детали"></textarea>
-                </label>
-                <p class="form-error" id="form-error" role="alert" hidden></p>
-                <button class="button button-wine" type="submit">Подтвердить присутствие <span aria-hidden="true">↗</span></button>
-                <p class="demo-note">Демонстрационная форма — ответ никуда не отправляется и не сохраняется.</p>
-              </form>
-              <div class="pass-result" id="pass-result" hidden aria-live="polite">
-                <p class="eyebrow" id="pass-kicker">DEMO PASS · 001</p>
-                <div class="pass-ticket" id="pass-ticket">
-                  <div class="pass-top"><span>AFTER<br>THE VOWS</span><span class="pass-stamp">12<br><i>JUN</i></span></div>
-                  <p class="eyebrow pass-status" id="pass-status"></p>
-                  <h3 id="pass-name"></h3>
-                  <div class="pass-details"><span>12 JUNE 2027</span><span>MAISON NOIRE</span></div>
-                  <div class="pass-code" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+                <div class="conditional-fields" id="attendance-details" hidden>
+                  <label class="reply-field">
+                    <span>Как планируете добраться?</span>
+                    <select name="transport" id="transport">
+                      <option value="">Выберите вариант</option>
+                      <option value="Трансфер">Организованный трансфер</option>
+                      <option value="Личный автомобиль">На личном автомобиле</option>
+                      <option value="Такси">Такси</option>
+                    </select>
+                  </label>
+                  <label class="reply-field">
+                    <span>Пожелания по меню</span>
+                    <select name="menu" id="menu">
+                      <option value="Без ограничений">Без ограничений</option>
+                      <option value="Вегетарианское меню">Вегетарианское меню</option>
+                      <option value="Без глютена">Без глютена</option>
+                      <option value="Нужно обсудить отдельно">Нужно обсудить отдельно</option>
+                    </select>
+                  </label>
+                  <label class="reply-field">
+                    <span>Какую песню обязательно включить?</span>
+                    <input type="text" name="song" maxlength="100" placeholder="Исполнитель и название">
+                  </label>
                 </div>
-                <p class="demo-note">Это только демонстрация — ваш ответ не был отправлен.</p>
-                <button class="text-button" id="edit-response" type="button">Изменить ответ <span aria-hidden="true">↗</span></button>
+
+                <p class="reply-error" id="reply-error" role="alert" hidden></p>
+                <button class="reply-submit" type="submit">Отправить ответ <span aria-hidden="true">↗</span></button>
+                <p class="reply-disclaimer">Демонстрационная форма. Ответ не отправляется на сервер и не сохраняется.</p>
+              </form>
+
+              <div class="reply-result" id="reply-result" hidden aria-live="polite">
+                <span class="result-symbol" aria-hidden="true">✳</span>
+                <p class="eyebrow">ОТВЕТ ПОДГОТОВЛЕН</p>
+                <h3 id="result-title">Спасибо!</h3>
+                <p id="result-message"></p>
+                <dl class="result-details" id="result-details"></dl>
+                <p class="reply-disclaimer">Это демонстрация интерфейса: данные никуда не отправлены.</p>
+                <button class="edit-reply" id="edit-reply" type="button">Изменить ответ</button>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="closing section-dark" id="closing" aria-labelledby="closing-title">
-        <div class="section-shell closing-inner">
+      <footer class="closing section-ink" id="closing">
+        <div class="section-shell closing-shell">
           <div class="section-meta reveal">
             <span class="section-number">08 / 08</span>
-            <span class="eyebrow">END OF PREVIEW / BEGINNING OF FOREVER</span>
+            <span class="meta-line"></span>
+            <span class="meta-label">ДО СКОРОЙ ВСТРЕЧИ</span>
           </div>
-          <p class="eyebrow closing-overline reveal">THE NEXT CHAPTER STARTS HERE</p>
-          <h2 class="closing-title reveal" id="closing-title">Анастасия <i>&amp;</i><br>Кирилл</h2>
+          <p class="closing-kicker reveal">СОХРАНИТЕ ЭТУ ДАТУ</p>
+          <h2 class="closing-title reveal">Ева <i>и</i><br>Александр</h2>
           <div class="closing-bottom reveal">
-            <p>До встречи в нашей<br>главной истории.</p>
-            <p class="closing-date">12 JUNE 2027<br><span>MAISON NOIRE · MOSCOW REGION</span></p>
+            <p>До встречи<br>12 июня.</p>
+            <p class="closing-date">12 / 06 / 2027<br><span>РЕЗИДЕНЦИЯ «МУАР» · МОСКОВСКАЯ ОБЛАСТЬ</span></p>
           </div>
-          <a class="back-top eyebrow" href="#top">BACK TO THE BEGINNING <span aria-hidden="true">↑</span></a>
+          <a class="back-top" href="#top">ВЕРНУТЬСЯ В НАЧАЛО <span aria-hidden="true">↑</span></a>
         </div>
-      </section>
+      </footer>
     </main>
 
-    <dialog class="lightbox" id="lightbox" aria-label="Просмотр фотографий">
-      <button class="lightbox-close" type="button" aria-label="Закрыть просмотр">×</button>
-      <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Предыдущее фото">←</button>
-      <figure>
-        <img id="lightbox-image" src="assets/gallery-portrait.webp" alt="">
-        <figcaption id="lightbox-caption" class="eyebrow"></figcaption>
-      </figure>
-      <button class="lightbox-arrow lightbox-next" type="button" aria-label="Следующее фото">→</button>
+    <dialog class="lightbox" id="lightbox" aria-label="Просмотр фотографии">
+      <button class="lightbox-close" type="button" aria-label="Закрыть фотографию">×</button>
+      <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Предыдущая фотография">←</button>
+      <img id="lightbox-image" src="assets/gallery-portrait.png" alt="">
+      <button class="lightbox-arrow lightbox-next" type="button" aria-label="Следующая фотография">→</button>
     </dialog>
   </body>
 </html>
