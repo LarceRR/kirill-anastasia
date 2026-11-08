@@ -108,3 +108,28 @@
 6. Убедиться, что все четыре галерейных фотографии показывают ту же пару.
 7. Не добавлять текст, логотипы, рамки и подписи внутрь изображений.
 8. Не генерировать карту или декоративную графику в SVG — карта сайта создаётся на HTML/CSS.
+
+
+## 08 — editorial-details.png
+
+- **Секция:** 02 — История.
+- **Формат:** PNG, 4:5.
+- **Разрешение:** 1600×2000 px.
+- **Желаемый вес:** до 1,2 MB.
+- **Композиция:** вертикальный натюрморт с бумажным приглашением без читаемого текста, тёмным конвертом, кольцами и лаконичной металлической деталью. Асимметричная редакционная композиция с натуральными фактурами.
+- **Описание:** фотография свадебных деталей, визуально уравновешивающая типографический манифест.
+- **Prompt (EN):** Luxury fashion-editorial wedding still life, tactile champagne ivory paper invitation with absolutely no readable writing, black envelope, subtle deep burgundy ribbon, elegant wedding rings and one refined metal accessory, dramatic directional studio light, sculptural shadows, rich paper and fabric textures, restrained premium styling, asymmetrical vertical composition with negative space, realistic photography. Output PNG, 1600 by 2000 pixels.
+- **Negative prompt:** readable text, typography, logo, watermark, hands, excessive flowers, glitter, bright gold, pastel palette, clutter, oversaturated burgundy, CGI, illustration.
+- **Размещение:** самостоятельная правая колонка рядом с текстом; на мобильном — после текста. Без подписи и текста поверх.
+
+## 09 — venue-interior.png
+
+- **Секция:** 03 — Программа.
+- **Формат:** PNG, 4:5.
+- **Разрешение:** 1600×2000 px.
+- **Желаемый вес:** до 1,2 MB.
+- **Композиция:** вертикальный вид вдоль праздничного стола в интерьере резиденции, айвори-скатерть, лаконичная посуда, тонкие свечи, тёплый вечерний свет и ощущение глубины.
+- **Описание:** интерьер зала, где пройдёт ужин; фотография дополняет вводную зону программы.
+- **Prompt (EN):** Cinematic luxury wedding dinner interior in a sophisticated private European mansion, long elegant dining table with ivory linen, dark tailored details, slender candles, refined glassware and subtle burgundy accents, warm low evening light, dramatic but readable shadows, editorial interior photography, rich natural materials, understated black-tie atmosphere, vertical 4:5 composition, no people, no text. Output PNG, 1600 by 2000 pixels.
+- **Negative prompt:** text, logos, watermark, pink decor, rustic barn, boho decor, excessive flowers, glitter, neon, bright saturated colors, plastic materials, clutter, overexposed candles, CGI.
+- **Размещение:** вертикальный кадр справа от заголовка и пояснения программы; четыре колонки расписания остаются ниже. На мобильном кадр компактный и не пересекается с текстом.
