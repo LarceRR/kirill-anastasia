@@ -275,7 +275,6 @@ em, i { font-weight: 400; }
     width: 100%;
     min-height: 100vh;
     min-height: 100svh;
-    min-height: 100dvh;
     padding-bottom: max(25px, env(safe-area-inset-bottom));
   }
   .hero-image { object-position: 77% center; }
