@@ -14,7 +14,7 @@
 **Название проекта:** AFTER THE VOWS  
 **Формат:** One-page wedding invitation website  
 **Количество основных секций:** 8  
-**Демо-пара:** Эмилия и Леон / Emilia & Leon  
+**Демо-пара:** Эмилия и Леон / Анастасия & Кирилл  
 **Дата свадьбы:** 12 июня 2027 года / 12 JUNE 2027  
 **Дедлайн RSVP:** 25 мая 2027 года  
 **Демо-локация:** MAISON NOIRE, Московская область (адрес демонстрационный, заменить перед реальным использованием).
@@ -49,7 +49,7 @@ AFTER THE VOWS — свадьба как кинематографическое 
 
 Используй единые данные во всех восьми секциях, форме, title/meta и билетном состоянии:
 
-- Пара: Эмилия и Леон / Emilia & Leon.
+- Пара: Эмилия и Леон / Анастасия & Кирилл.
 - Дата: 12 июня 2027 / 12 June 2027.
 - Локация: MAISON NOIRE.
 - Адрес: Московская область, загородная резиденция Maison Noire. Это демонстрационная формулировка, а не подтверждённый реальный адрес.
@@ -165,7 +165,7 @@ AFTER THE VOWS — свадьба как кинематографическое 
 
 ### Содержимое
 
-- Имена: Эмилия & Леон / Emilia & Leon.
+- Имена: Эмилия & Леон / Анастасия & Кирилл.
 - Дата: 12 июня 2027 / 12 JUNE 2027.
 - Фраза: «Один вечер. Одна история. И люди, с которыми мы хотим её разделить».
 - Навигация: STORY / THE NIGHT / LOCATION / RSVP.
@@ -349,10 +349,10 @@ AFTER THE VOWS — свадьба как кинематографическое 
 
 Ровно четыре самостоятельные фотографии той же пары, что и на Hero:
 
-1. **gallery-portrait.png** — уверенный редакционный портрет пары.
-2. **gallery-motion.png** — прогулка или танец, естественное движение, допустим лёгкий motion blur.
-3. **gallery-details.png** — крупный план рук, колец, букета или фактуры свадебного образа.
-4. **gallery-candid.png** — живой эмоциональный момент, пара смеётся или общается.
+1. **gallery-portrait.webp** — уверенный редакционный портрет пары.
+2. **gallery-motion.webp** — прогулка или танец, естественное движение, допустим лёгкий motion blur.
+3. **gallery-details.webp** — крупный план рук, колец, букета или фактуры свадебного образа.
+4. **gallery-candid.webp** — живой эмоциональный момент, пара смеётся или общается.
 
 ### Визуальные требования
 
@@ -427,7 +427,7 @@ AFTER THE VOWS — свадьба как кинематографическое 
 
 ### Содержимое
 
-- Эмилия & Леон / Emilia & Leon.
+- Эмилия & Леон / Анастасия & Кирилл.
 - 12 июня 2027 / 12 JUNE 2027.
 - Фраза: «До встречи в нашей главной истории».
 - Подпись: `END OF PREVIEW / BEGINNING OF FOREVER`.
@@ -471,19 +471,19 @@ AFTER THE VOWS — свадьба как кинематографическое 
 
 Все фотографии с парой должны изображать одних и тех же вымышленных людей:
 
-- **Emilia / невеста:** взрослая женщина с тёмно-каштановыми волосами, собранными в гладкий низкий пучок; минималистичный макияж; молочное архитектурное атласное свадебное платье без пышного декора.
-- **Leon / жених:** взрослый мужчина с короткими тёмными волосами; чёрный классический смокинг, белая рубашка, чёрная бабочка.
+- **Анастасия / невеста:** взрослая женщина с тёмно-каштановыми волосами, собранными в гладкий низкий пучок; минималистичный макияж; молочное архитектурное атласное свадебное платье без пышного декора.
+- **Кирилл / жених:** взрослый мужчина с короткими тёмными волосами; чёрный классический смокинг, белая рубашка, чёрная бабочка.
 
-Сначала создать `hero-couple.png`. После утверждения Hero использовать его как reference image для всех галерейных кадров, если генератор поддерживает references. Сохранять лица, возрастной образ, волосы, одежду и общую стилистику.
+Сначала создать `hero-couple.webp`. После утверждения Hero использовать его как reference image для всех галерейных кадров, если генератор поддерживает references. Сохранять лица, возрастной образ, волосы, одежду и общую стилистику.
 
 Не генерировать отдельные кадры с разными людьми. Не менять платье и костюм без явно предусмотренной причины.
 
 ## 6.3. Обязательные материалы
 
-### 01. hero-couple.png
+### 01. hero-couple.webp
 
 - **Использование:** Section 01 — Hero.
-- **Содержание:** взрослая пара Emilia и Leon на фоне выразительной архитектуры или вечернего интерьера.
+- **Содержание:** взрослая пара Анастасия и Кирилл на фоне выразительной архитектуры или вечернего интерьера.
 - **Формат:** 16:9.
 - **Рекомендуемое разрешение:** 2400×1350 px или выше.
 - **Композиция:** пара немного правее центра; слева оставить спокойную область для крупных имён; показать фигуры минимум по пояс или в полный рост; не обрезать головы и руки.
@@ -492,7 +492,7 @@ AFTER THE VOWS — свадьба как кинематографическое 
 - **Negative prompt:** `text, typography, watermark, logo, extra people, different outfits, deformed hands, extra fingers, plastic skin, over-retouching, excessive HDR, neon colors, oversaturated red, fantasy lighting, heavy blur, flowers covering faces, wedding clichés, cartoon, CGI.`
 - **Reference:** не нужен для первой генерации. После выбора Hero использовать его как reference для материалов 06–09.
 
-### 02. venue-exterior.png
+### 02. venue-exterior.webp
 
 - **Использование:** Section 04 — Location.
 - **Содержание:** выразительная европейская резиденция или современный особняк с архитектурной подсветкой.
@@ -504,7 +504,7 @@ AFTER THE VOWS — свадьба как кинематографическое 
 - **Negative prompt:** `text, signage, watermark, logo, satellite view, fantasy castle, oversaturated greenery, bright daylight, pink flowers, wedding arch, crowds, cars blocking the facade, distorted architecture, CGI.`
 - **Reference:** не требуется.
 
-### 03. venue-interior.png
+### 03. venue-interior.webp
 
 - **Использование:** Section 04 — Location или Section 03 — Schedule.
 - **Содержание:** интерьер вечернего пространства для ужина: длинный стол, свечи, тёмные ткани, тёплый свет.
@@ -516,7 +516,7 @@ AFTER THE VOWS — свадьба как кинематографическое 
 - **Negative prompt:** `text, logos, watermark, pink decor, rustic barn, boho decor, excessive flowers, glitter, neon, bright saturated colors, plastic materials, clutter, overexposed candles, CGI.`
 - **Reference:** не требуется; сверять с общей цветокоррекцией проекта.
 
-### 04. editorial-details.png
+### 04. editorial-details.webp
 
 - **Использование:** Section 02 — Invitation или Section 03 — Schedule.
 - **Содержание:** натюрморт с приглашением, конвертом, фактурной бумагой, кольцами или аксессуарами. Без читаемого текста.
@@ -528,7 +528,7 @@ AFTER THE VOWS — свадьба как кинематографическое 
 - **Negative prompt:** `legible text, random letters, watermark, logo, excessive gold foil, glitter, flowers, lace overload, pink palette, clutter, fake plastic texture, CGI.`
 - **Reference:** не требуется.
 
-### 05. dress-code-editorial.png
+### 05. dress-code-editorial.webp
 
 - **Использование:** Section 05 — Dress Code.
 - **Содержание:** fashion moodboard из чёрного шёлка, винного атласа, ivory-ткани, бархата и металлических аксессуаров.
@@ -540,19 +540,19 @@ AFTER THE VOWS — свадьба как кинематографическое 
 - **Negative prompt:** `text, labels, logos, watermark, flowers, pastel pink, sage green, orange, neon, cheap fabric, messy pile, mannequins, visible faces, CGI, oversaturated colors.`
 - **Reference:** не требуется.
 
-### 06. gallery-portrait.png
+### 06. gallery-portrait.webp
 
 - **Использование:** Section 06 — Gallery.
-- **Содержание:** редакционный портрет Emilia и Leon в тех же свадебных образах.
+- **Содержание:** редакционный портрет Анастасия и Кирилл в тех же свадебных образах.
 - **Формат:** 4:5.
 - **Рекомендуемое разрешение:** 1600×2000 px.
 - **Композиция:** пара по пояс или в полный рост; уверенная, естественная поза; выразительная архитектурная среда.
 - **Палитра:** согласовать с Hero.
-- **Generation prompt (EN):** `Using the supplied hero photo as the exact identity and wardrobe reference, create a premium fashion wedding editorial portrait of the same adult bride Emilia and groom Leon. Preserve their exact faces, hairstyles and outfits: sleek low chestnut bun and minimalist ivory satin gown; short dark hair and classic black tuxedo. Intimate confident pose in the same architectural evening venue, direct-flash editorial lighting, natural expressions, deep controlled shadows, champagne highlights, subtle film grain, vertical 4:5 composition.`
+- **Generation prompt (EN):** `Using the supplied hero photo as the exact identity and wardrobe reference, create a premium fashion wedding editorial portrait of the same adult bride Анастасия and groom Кирилл. Preserve their exact faces, hairstyles and outfits: sleek low chestnut bun and minimalist ivory satin gown; short dark hair and classic black tuxedo. Intimate confident pose in the same architectural evening venue, direct-flash editorial lighting, natural expressions, deep controlled shadows, champagne highlights, subtle film grain, vertical 4:5 composition.`
 - **Negative prompt:** `different people, changed faces, changed hairstyle, changed dress, changed tuxedo, extra people, text, watermark, logo, plastic skin, deformed hands, excessive retouching, oversaturated colors, CGI.`
-- **Reference:** обязательно использовать `hero-couple.png`.
+- **Reference:** обязательно использовать `hero-couple.webp`.
 
-### 07. gallery-motion.png
+### 07. gallery-motion.webp
 
 - **Использование:** Section 06 — Gallery.
 - **Содержание:** та же пара в движении — идёт по архитектурному коридору, лестнице или вечерней дорожке.
@@ -560,23 +560,23 @@ AFTER THE VOWS — свадьба как кинематографическое 
 - **Рекомендуемое разрешение:** 1600×2000 px.
 - **Композиция:** вертикальный кадр, движение пары по диагонали или в глубину кадра; лёгкий motion blur допустим, лица остаются узнаваемыми.
 - **Палитра:** согласовать с Hero.
-- **Generation prompt (EN):** `Using the supplied hero photo as exact identity and wardrobe reference, photograph the same adult bride Emilia and groom Leon walking together through the same elegant evening venue. Preserve exact faces, hair and clothing. Candid movement, natural interaction, slightly dynamic framing, subtle controlled motion blur in the background only, direct-flash fashion editorial photography, deep black and champagne tones, realistic skin texture, vertical 4:5.`
+- **Generation prompt (EN):** `Using the supplied hero photo as exact identity and wardrobe reference, photograph the same adult bride Анастасия and groom Кирилл walking together through the same elegant evening venue. Preserve exact faces, hair and clothing. Candid movement, natural interaction, slightly dynamic framing, subtle controlled motion blur in the background only, direct-flash fashion editorial photography, deep black and champagne tones, realistic skin texture, vertical 4:5.`
 - **Negative prompt:** `different couple, altered faces, altered outfits, extra limbs, distorted hands, unreadable faces, heavy blur, text, watermark, logo, oversaturated red, CGI.`
-- **Reference:** обязательно использовать `hero-couple.png`.
+- **Reference:** обязательно использовать `hero-couple.webp`.
 
-### 08. gallery-details.png
+### 08. gallery-details.webp
 
 - **Использование:** Section 06 — Gallery.
-- **Содержание:** крупный план рук Emilia и Leon, колец и фрагмента свадебных образов; при необходимости — небольшой букет без ботанической доминанты.
+- **Содержание:** крупный план рук Анастасия и Кирилл, колец и фрагмента свадебных образов; при необходимости — небольшой букет без ботанической доминанты.
 - **Формат:** 4:5.
 - **Рекомендуемое разрешение:** 1600×2000 px.
 - **Композиция:** руки и кольца в фокусе; детали платья и смокинга подтверждают непрерывность образов; фон спокойный.
 - **Палитра:** ivory, black, champagne, subtle wine.
 - **Generation prompt (EN):** `Using the supplied hero photo as wardrobe and identity reference, create a refined close-up editorial wedding photograph of the same couple's hands together, showing elegant wedding rings and the recognizable ivory satin sleeve of the bride with the black tuxedo cuff of the groom. Intimate tactile detail, realistic hands, directional soft flash, deep controlled shadows, warm champagne highlights, luxury print-editorial photography, vertical 4:5.`
 - **Negative prompt:** `different clothing, extra fingers, malformed hands, multiple rings on every finger, text, watermark, logo, excessive flowers, plastic skin, CGI, oversaturated colors.`
-- **Reference:** обязательно использовать `hero-couple.png`.
+- **Reference:** обязательно использовать `hero-couple.webp`.
 
-### 09. gallery-candid.png
+### 09. gallery-candid.webp
 
 - **Использование:** Section 06 — Gallery.
 - **Содержание:** естественный эмоциональный момент той же пары — смех, разговор или близкий взгляд.
@@ -584,11 +584,11 @@ AFTER THE VOWS — свадьба как кинематографическое 
 - **Рекомендуемое разрешение:** 1600×2000 px.
 - **Композиция:** живой непостановочный кадр; пара узнаваема; фон не перегружен.
 - **Палитра:** согласовать с Hero.
-- **Generation prompt (EN):** `Using the supplied hero photo as the exact identity and wardrobe reference, capture the same adult bride Emilia and groom Leon sharing a genuine candid laugh at their elegant evening wedding. Preserve exact facial features, hairstyles and outfits. Intimate spontaneous moment, direct-flash fashion documentary photography, natural expressions, cinematic dark background, warm champagne highlights, subtle film grain, vertical 4:5 composition.`
+- **Generation prompt (EN):** `Using the supplied hero photo as the exact identity and wardrobe reference, capture the same adult bride Анастасия and groom Кирилл sharing a genuine candid laugh at their elegant evening wedding. Preserve exact facial features, hairstyles and outfits. Intimate spontaneous moment, direct-flash fashion documentary photography, natural expressions, cinematic dark background, warm champagne highlights, subtle film grain, vertical 4:5 composition.`
 - **Negative prompt:** `different people, changed face, changed hairstyle, changed outfit, staged exaggerated laughter, extra people, text, watermark, logo, plastic skin, over-retouching, CGI.`
-- **Reference:** обязательно использовать `hero-couple.png`.
+- **Reference:** обязательно использовать `hero-couple.webp`.
 
-### 10. venue-map-reference.png (необязательно)
+### 10. venue-map-reference.webp (необязательно)
 
 - **Использование:** только визуальный референс для разработки SVG-карты Section 04.
 - **Формат:** 16:9.
@@ -626,16 +626,16 @@ AFTER THE VOWS — свадьба как кинематографическое 
 
 | Файл | Назначение | Формат | Приоритет |
 |---|---|---|---|
-| hero-couple.png | Главный экран | 16:9 | Высокий |
-| venue-exterior.png | Локация | 3:2 | Высокий |
-| venue-interior.png | Локация / атмосфера ужина | 4:5 | Средний |
-| editorial-details.png | Приглашение / расписание | 4:5 | Средний |
-| dress-code-editorial.png | Dress Code | 4:5 | Средний |
-| gallery-portrait.png | Галерея | 4:5 | Высокий |
-| gallery-motion.png | Галерея | 4:5 | Высокий |
-| gallery-details.png | Галерея | 4:5 | Средний |
-| gallery-candid.png | Галерея | 4:5 | Высокий |
-| venue-map-reference.png | Референс SVG-карты | 16:9 | Низкий |
+| hero-couple.webp | Главный экран | 16:9 | Высокий |
+| venue-exterior.webp | Локация | 3:2 | Высокий |
+| venue-interior.webp | Локация / атмосфера ужина | 4:5 | Средний |
+| editorial-details.webp | Приглашение / расписание | 4:5 | Средний |
+| dress-code-editorial.webp | Dress Code | 4:5 | Средний |
+| gallery-portrait.webp | Галерея | 4:5 | Высокий |
+| gallery-motion.webp | Галерея | 4:5 | Высокий |
+| gallery-details.webp | Галерея | 4:5 | Средний |
+| gallery-candid.webp | Галерея | 4:5 | Высокий |
+| venue-map-reference.webp | Референс SVG-карты | 16:9 | Низкий |
 | venue-map.svg | Авторская адаптивная карта | SVG | Высокий |
 | event-mark.svg | Небольшой типографический знак, если требуется | SVG | Низкий |
 
@@ -643,7 +643,7 @@ AFTER THE VOWS — свадьба как кинематографическое 
 
 В `IMAGE_GENERATION_BRIEF.md` продублируй и удобно оформи все 10 материалов из раздела 6.3. Каждый материал должен иметь отдельный блок с именем файла, секцией, описанием, форматом, рекомендуемым разрешением, композицией, палитрой, готовым английским prompt, negative prompt и референсом.
 
-Промпты должны быть самодостаточными: их можно скопировать отдельно друг от друга. Для изображений 06–09 явно указывать, что `hero-couple.png` является reference image и что лица и одежда должны быть сохранены.
+Промпты должны быть самодостаточными: их можно скопировать отдельно друг от друга. Для изображений 06–09 явно указывать, что `hero-couple.webp` является reference image и что лица и одежда должны быть сохранены.
 
 В конце файла добавить:
 - таблицу всех материалов;
@@ -782,7 +782,7 @@ AFTER THE VOWS — свадьба как кинематографическое 
 
 - Не использовать тяжёлые видеофоны.
 - Не использовать 3D-эффекты.
-- Оптимизировать размер фотографий; при наличии исходников подготовить WebP/AVIF и fallback.
+- Оптимизировать размер фотографий; при наличии исходников подготовить png/AVIF и fallback.
 - Lazy-load изображений ниже первого экрана.
 - Не анимировать большие blur/filter области на каждом кадре.
 - Использовать transform/opacity для анимаций, когда возможно.
@@ -798,16 +798,16 @@ AFTER THE VOWS — свадьба как кинематографическое 
 after-the-vows/
   public/
     assets/
-      hero-couple.png
-      venue-exterior.png
-      venue-interior.png
-      editorial-details.png
-      dress-code-editorial.png
+      hero-couple.webp
+      venue-exterior.webp
+      venue-interior.webp
+      editorial-details.webp
+      dress-code-editorial.webp
       gallery/
-        gallery-portrait.png
-        gallery-motion.png
-        gallery-details.png
-        gallery-candid.png
+        gallery-portrait.webp
+        gallery-motion.webp
+        gallery-details.webp
+        gallery-candid.webp
       venue-map.svg
       event-mark.svg
       placeholders/
@@ -852,8 +852,8 @@ after-the-vows/
 3. Используется концепция AFTER THE VOWS — cinematic fashion editorial.
 4. Палитра построена вокруг `#101010`, `#E8DCC8`, `#8D172B`, `#F0EDE7`, `#77736F`, `#302027`.
 5. Используются Bodoni Moda или Cormorant Garamond и Manrope или Helvetica Neue.
-6. Главный экран показывает пару Emilia & Leon в соответствующей вечерней fashion-съёмке.
-7. Имена и дата едины во всём проекте: Emilia & Leon, 12 June 2027.
+6. Главный экран показывает пару Анастасия & Кирилл в соответствующей вечерней fashion-съёмке.
+7. Имена и дата едины во всём проекте: Анастасия & Кирилл, 12 June 2027.
 8. В Section 03 есть четыре события с правильными временами.
 9. Section 04 содержит архитектурную фотографию и авторскую плоскую SVG-карту.
 10. Section 05 выглядит как fashion moodboard, а не ботанический dress code.
